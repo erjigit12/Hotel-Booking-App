@@ -82,10 +82,7 @@ class PaidScreen extends StatelessWidget {
             text: 'Супер!',
             onPressed: () {
               Navigator.pushNamedAndRemoveUntil(
-                context,
-                RoutesName.hotelScreen,
-                (route) => false,
-              );
+                  context, RoutesName.hotelScreen, (route) => false);
             },
           ),
         ),
